@@ -23,7 +23,7 @@ const ProjectCard = ({ title, tags, description, buttonText, url, color, mainEle
                     <p className={`mb-2 max-w-2xl ${(color === 'white') ? 'text-black' : 'text-white'}`}>{description}</p>
                 </div>
                 <div className="flex justify-center z-20">
-                    <a href={url} target="_blank" rel="noopener noreferrer" className={`px-4 py-2 text-sm rounded-full border ${(color === 'white') ? 'text-dark-grey border-dark-grey' : 'text-light-grey border-light-grey'} ${buttonText === 'In Progress' || buttonText === 'Coming Soon' ? 'cursor-not-allowed pointer-events-none' : ''}`}>
+                    <a href={url} target="_blank" rel="noopener noreferrer" className={`px-4 py-2 text-sm rounded-full border ${(color === 'white') ? 'text-dark-grey border-dark-grey' : 'text-light-grey border-light-grey'} ${buttonText === 'In Progress' ? 'cursor-not-allowed pointer-events-none' : ''}`}>
                         {buttonText}
                     </a>
                 </div>

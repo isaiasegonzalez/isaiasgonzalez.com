@@ -18,7 +18,7 @@ export const navigation = [
         id: "2",
         title: "Work",
     }
-]
+];
 
 export const boxLinks = [
     {
@@ -39,7 +39,7 @@ export const boxLinks = [
         logo: <IoIosDocument size={24} />,
         url: "/Isaias_Gonzalez_Resume.pdf"
     }
-]
+];
 
 export const experiences = [
     {
@@ -92,8 +92,8 @@ export const projects = [
         title: "CougarCS",
         tags: ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Adobe After Effects"],
         description: "Creating visually appealing designs for the largest computer science organization at the University of Houston.",
-        buttonText: "Coming Soon",
-        url: "/CougarCS-Designs",
+        buttonText: "View Instagram",
+        url: "https://www.instagram.com/cougarcs_uh",
         color: "white",
         mainElement: cougarCSLogo,
         otherElements: cougarCSElements
@@ -127,7 +127,7 @@ export const projects = [
         color: "secondary",
         mainElement: virtualPetSimulator
     }
-]
+];
 
 export const footerPages = [
     {
@@ -150,7 +150,7 @@ export const footerPages = [
         title: "Contact",
         url: "/contact"
     }
-]
+];
 
 export const footerConnect = [
     {
@@ -173,4 +173,4 @@ export const footerConnect = [
         title: "Email",
         url: "mailto:xisaiasgonzalez@gmail.com"
     }
-]
+];
